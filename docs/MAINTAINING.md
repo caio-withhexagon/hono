@@ -71,3 +71,5 @@ npm only allows a Trusted Publisher on a package that already exists, so the fir
 2. Build it: `pnpm --filter @hono/<name> run build` (`pnpm publish` does not build).
 3. In `adapters/<name>`, run `pnpm publish --access public` with your npm 2FA.
 4. On npmjs.com, open the package settings and add a Trusted Publisher: repository `honojs/hono`, workflow `release.yml`.
+
+<!-- reviewed by caio -->
